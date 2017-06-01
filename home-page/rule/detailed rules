@@ -1,4 +1,49 @@
-<p>List of Rules</p>
+<DOCTYPEhtml!>
+<style>
+p{
+    font-family: "Arial";
+    font-size: 32px;
+    margin: center;
+}
+.red {
+    color: #cc0000;
+}
+.yellow {
+    color: yellow;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: #6aa84f;
+}
+.pink {
+    color: #e06666;
+}
+.grey {
+    color: #434343;
+}
+.head {
+    font-size: 64px;
+}
+</style>
+<body>
+    <div>
+        <body>
+           <center>
+           <img src="http://i.imgur.com/Dpimb15.png" height="170.4" width="1024" align="middle" >
+           <h1 class="head">Punishment Guidelines</h1><hr><br><br>
 
-<p>WARNING: Content in this document may not be suitable for young children, it contains some vulgarity as examples for the different rules.</p>
-<p>Welcome to the ArcticForestMC Punishment Guidelines! This is a long and detailed version of the entire Punishment Guidelines that will will <b>need</b> to know as a player on the server.</p>
+           <p class="pink"><b>WARNING: Content in this document may not be suitable for young children, it contains some vulgarity as examples for the different rules.</b></p>
+           <p class="grey">Welcome to the ArcticForestMC Punishment Guidelines! This is a long and detailed version of the entire Punishment Guidelines that will will <b>need</b> to know as a player on the server.</p>
+           <p class="grey">Please be sure to check back frequently for document updates!</p>
+           <p class="grey"><b>- Examples in <span class="green">GREEN</span> are not punishable and do not warrant a warning.<br>- Examples in <span class="red">RED</span> are punishable and may warrant a warning.</b></p>
+           <p class="red"><b>Loopholing or attempting to loophole the rules will also lead to punishment, at the handling staff member’s discretion.</b></p><hr>
+           <h1 class="head">Remember</h1>
+           <p class="grey">These are mainly just examples, enforcement of these rules is decided by the individual staff member. If you suspect a staff member is abusing their power or punishing incorrectly then please send us an email at <a href="https://gmail.com">arcticforestmc@gmail.com</a> or contact their appropriate supervisor through the Discord.</p>
+           <p class="grey">Note: Please note that all of the following may vary case by case depending on context. Rules and punishments are subject to change at any time at the discretion of the Admin.</p>
+           <p class="grey">Note: Please note that punishment times are determined by the system, and depending on previous offenses, the punishment time may increase. Generally the punishment time will automatically increase with every severity.</p>
+           </center>
+        </body>
+    </div>
+</body>
