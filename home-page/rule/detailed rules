@@ -31,15 +31,55 @@ p{
     font-size: 96px;
     font-family: "Calibri";
 }
-.Table {
+.T1 {
     background-color: #6aa84f;
+    border: none;
+    color: #6aa84f;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.T2 {
+    background-color: #8d8d8d;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-family: Arial;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.T3 {
+    background-color: #efefef;
+    border: none;
+    color: #434343;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.T4 {
+    background-color: #e6e3de;
+    border: none;
+    color: #434343;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 32px;
     margin: 4px 2px;
     cursor: pointer;
 }
@@ -67,21 +107,26 @@ p{
                <tbody>
                    <tr>
                    <tr>
-                       <td colspan="1" rowspan="1"><span>dwa</span>
-                       <td colspan="1" rowspan="1"><span>dwa</span>
-                       <td colspan="1" rowspan="1"><span>dwa</span>
-                       <td colspan="1" rowspan="1"><span>dwa</span>
+                       <td class="T2" colspan="1" rowspan="1">
+                           <span>Offence</span>
+                       <td class="T2" colspan="1" rowspan="1">
+                           <span>Description</span>
+                       <td class="T2" colspan="1" rowspan="1">
+                           <span>Examples</span>
+                       <td class="T2" colspan="1" rowspan="1">
+                           <span>Punishment</span>
                    </tr>
-                       <td class="table" colspan="1" rowspan="1"><span>Offence</span>
-                       <td class="table" colspan="1" rowspan="1"><span>dwa</span>
-                       <td class="table" colspan="1" rowspan="1"><span>dwa</span>
-                       <td class="table" colspan="1" rowspan="1"><span>dwa</span>
+                       <td class="T1" class="table" colspan="1" rowspan="1"><span></span>
+                       <td class="T1" class="table" colspan="1" rowspan="1"><span></span>
+                       <td class="T1" class="table" colspan="1" rowspan="1"><span></span>
+                       <td class="T1" colspan="1" rowspan="1"><span>1</span>
                    </tr>
                    <tr>
-                       <td colspan="1" rowspan="1"><span>dwa</span>
-                       <td colspan="1" rowspan="1"><span>dwa</span>
-                       <td colspan="1" rowspan="1"><span>dwa</span>
-                       <td colspan="1" rowspan="1"><span>dwa</span>
+                       <td class="T3" colspan="1" rowspan="1"><span><b>Caps</b></span>
+                       <td class="T3" colspan="1" rowspan="1"><span>Capitalising <b>8 or more words</b> over multiple lines</span><br><br><span><b>OR</b></span><br><br><span>Capitalising <b>more than 30</b> characters (including alternating LiKe ThIs) over one or multiple lines.</span>
+                       <td class="T3" colspan="1" rowspan="1"><span>“<a class="red"><b>I AM SO BORED RIGHT NOW SOMEONE PLEASE HELP ME</b></a>”
+<br>The player used 8 or more words in capitals for no reason.<br>“OmG PlAAYeR 1 U r So CoOL”<br>“LeLeLeLeeElELeLe CaPs R FuN”<br>“wHo ElSe LiKeS tO uSe cApS!”<br>The player used over 30 needlessly capitalised characters while expressing the intent to abuse caps over the course of two lines.</span>
+                       <td class="T3" colspan="1" rowspan="1"><span>dwa</span>
                    </tr>
                </tbody>
            </table>
