@@ -25,6 +25,23 @@ p{
 }
 .head {
     font-size: 64px;
+    font-family: "Calibri";
+}
+.head-1 {
+    font-size: 96px;
+    font-family: "Calibri";
+}
+.Table {
+    background-color: #6aa84f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 </style>
 <body>
@@ -42,7 +59,32 @@ p{
            <h1 class="head">Remember</h1>
            <p class="grey">These are mainly just examples, enforcement of these rules is decided by the individual staff member. If you suspect a staff member is abusing their power or punishing incorrectly then please send us an email at <a href="https://gmail.com">arcticforestmc@gmail.com</a> or contact their appropriate supervisor through the Discord.</p>
            <p class="grey">Note: Please note that all of the following may vary case by case depending on context. Rules and punishments are subject to change at any time at the discretion of the Admin.</p>
-           <p class="grey">Note: Please note that punishment times are determined by the system, and depending on previous offenses, the punishment time may increase. Generally the punishment time will automatically increase with every severity.</p>
+           <p class="grey">Note: Please note that punishment times are determined by the system, and depending on previous offenses, the punishment time may increase. Generally the punishment time will automatically increase with every severity.</p><hr>
+           <h1 class="head-1">Chat Offences</h1>
+           <h1 class="head green">Severity 1</h1>
+           <p class="grey">For all Severity 1 <b>Chat</b> offences (unless otherwise specified), you will be <b>verbally warned and assigned a paper warning together</b>. If you already have a <b>previous warning or jail in the past month</b> from the time of punishment for the same offence, <b>no warning is necessary and you will be jailed</b>. If you <b>complain</b> about being jailed in any way you will be banned with no warnings.<br>However, if there is no previous warning/jail in the past month, you are required to be warned before being jailed.</p>
+           <table>
+               <tbody>
+                   <tr>
+                   <tr>
+                       <td colspan="1" rowspan="1"><span>dwa</span>
+                       <td colspan="1" rowspan="1"><span>dwa</span>
+                       <td colspan="1" rowspan="1"><span>dwa</span>
+                       <td colspan="1" rowspan="1"><span>dwa</span>
+                   </tr>
+                       <td class="table" colspan="1" rowspan="1"><span>Offence</span>
+                       <td class="table" colspan="1" rowspan="1"><span>dwa</span>
+                       <td class="table" colspan="1" rowspan="1"><span>dwa</span>
+                       <td class="table" colspan="1" rowspan="1"><span>dwa</span>
+                   </tr>
+                   <tr>
+                       <td colspan="1" rowspan="1"><span>dwa</span>
+                       <td colspan="1" rowspan="1"><span>dwa</span>
+                       <td colspan="1" rowspan="1"><span>dwa</span>
+                       <td colspan="1" rowspan="1"><span>dwa</span>
+                   </tr>
+               </tbody>
+           </table>
            </center>
         </body>
     </div>
