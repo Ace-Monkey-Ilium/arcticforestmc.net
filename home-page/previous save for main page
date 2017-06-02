@@ -1,0 +1,109 @@
+<DOCTYPEhtml!>
+<style>
+    body {
+  height: 100%;
+}
+.bg { 
+    /* The image used */
+    background-image: url("http://i.imgur.com/AOkCD.png");
+
+    /* Full height */
+    height: 872px; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+img {
+  margin-top: 32px;
+  transition: 2s ease-in;
+}
+img:hover {
+  margin-top: 32px;
+  opacity: .50;
+  transition: 1s ease;
+}
+.button {
+    background-color: #4c94af;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #111da0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+h1 {
+  /*Centering text*/
+  text-align: center;
+  text-shadow: 2px 2px #6f6f6f;
+  transition: 2s;
+}
+
+ul {
+  display: inline-block;
+margin: 10px auto;
+width: 550px;
+border: 1px solid white;
+padding: 10px;
+background-color: rgba(255, 255, 255, .3);
+list-style-position: inside;
+  transition: 1s ease;
+}
+ul:hover {
+  display: inline-block;
+margin: 10px auto;
+width: 550px;
+border: 2px solid white;
+padding: 10px;
+background-color: rgba(255, 255, 255, .3);
+list-style-position: inside;
+  transition: 1s ease;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.error-t {
+  /*Centering text*/ 
+  font-size: 20px;
+}
+.error-f {
+  /*Centering text*/ 
+  font-size: 64px;
+}
+iframe {
+  opacity: 0;
+}
+</style>
+<body class="bg" link="white">
+  <div>
+    <center><img src="http://i.imgur.com/Dpimb15.png" height="170.4" width="1024" align="middle" >
+    <br><h1 class="button">Home</h1>
+    <h1 class="button"><a href="https://arcticforestmc-net.tumblr.com/info/">About ArcticForest</a></h1>
+    <h1 class="button"><a href="https://arcticforestmc-net.tumblr.com/apply/">Staff Application</a></h1>
+    <h1 class="button"><a href="https://arcticforestmc-net.tumblr.com/rules/">Rules</a></h1>
+    <h1 class="button"><a href="https://discord.gg/DJBBkWx" target="_blank">Discord</a></h1>
+    <h1 class="button"><a href="https://arcticforestmc-net.tumblr.com/youtube/">YouTube</a></h1>
+    <br>
+    <ul>
+    <p class="error-t"><b>Arctic Forest is a vanilla survival server that has a friendly community and atmosphere about it.  With a smaller playerbase, you will find great places to build and set up your base/house. The world was originaly made in Alpha minecraft but sadly, most of the Alpha cuncks need to be deleted because they were casuing problems. There are great staff members who are always happy to help and kind to players. Arctic Forest is a great server and you should definetly join!</b></p></ul>
+    <h1>© All Rights Reserved.</h1></center>
+  </div>
+<body>
