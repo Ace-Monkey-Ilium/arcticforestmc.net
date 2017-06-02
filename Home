@@ -96,11 +96,11 @@ iframe {
   <div>
     <center><img src="http://i.imgur.com/Dpimb15.png" height="170.4" width="1024" align="middle" >
     <br><h1 class="button">Home</h1>
-    <h1 class="button"><a href="https://arcticforestmc-net.tumblr.com/info/">About ArcticForest</a></h1>
-    <h1 class="button"><a href="https://arcticforestmc-net.tumblr.com/apply/">Staff Application</a></h1>
-    <h1 class="button"><a href="https://arcticforestmc-net.tumblr.com/rules/">Rules</a></h1>
+    <h1 class="button"><a href="info/">About ArcticForest</a></h1>
+    <h1 class="button"><a href="apply/">Staff Application</a></h1>
+    <h1 class="button"><a href="rules/">Rules</a></h1>
     <h1 class="button"><a href="https://discord.gg/DJBBkWx" target="_blank">Discord</a></h1>
-    <h1 class="button"><a href="https://arcticforestmc-net.tumblr.com/youtube/">YouTube</a></h1>
+    <h1 class="button"><a href="youtube/">YouTube</a></h1>
     <br>
     <ul>
     <p class="error-t"><b>Arctic Forest is a vanilla survival server that has a friendly community and atmosphere about it.  With a smaller playerbase, you will find great places to build and set up your base/house. The world was originaly made in Alpha minecraft but sadly, most of the Alpha cuncks need to be deleted because they were casuing problems. There are great staff members who are always happy to help and kind to players. Arctic Forest is a great server and you should definetly join!</b></p></ul>
