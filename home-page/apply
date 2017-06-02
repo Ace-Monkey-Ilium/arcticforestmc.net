@@ -16,11 +16,22 @@
     background-size: cover;
 
 }
+img {
+  margin-top: 32px;
+  transition: 2s ease-in;
+}
+iframe {
+  margin-top: 32px;
+  transition: 2s ease-in;
+}
 </style>
 <html>
     <body class="bg">
-        <div>
-            
-        </div>
+        <div><center>
+            <img src="http://i.imgur.com/Dpimb15.png" height="170.4" width="1024" align="middle" >
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeRB_MlJE4Nsy2w70vmDc00PGL7CIpL1beCXNcxYUMRVBDeiw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0" >Loading...</iframe>
+                
+               </center>
+          </div>
     </body>
 </html>
