@@ -130,9 +130,7 @@ p{
                    </tr>
                        <td class="T4" class="table" colspan="1" rowspan="1"><span><b>Spam</b></span>
                        <td class="T4" class="table" colspan="1" rowspan="1"><span><b>Normal Spam:</b><br>Sending the same or a similar message in chat 3+ times<br><br><b>OR</b><br><br><b>Character Spam:</b><br>Sending messages with elongated words or random characters or symbols</span>
-                       <td class="T4" class="table" colspan="1" rowspan="1"><span>“<a class="red"><b>Come join our team!<br>Come join our team!!<br>Come join our team!</b></a>”
-These messages are intended to be spam as it is the same message 3 times in a row.<br>“<a class="red"><b>gndonaosndoang2qnfw</b></a>”<br>This message is intended to be character spam as it is random characters.
-“<a class="red"><b>omg a mod<br>hi mod ur so cool<br>mod hi omg</b></a>”<br>These messages are not similar but still flood the chat.<br><br>“<a class="green"><b>ggggggggggggggggg</b></a>”<br>This message indicates that a player had a fun time (and is saying “good game”), we don’t punish players who are excited.</span>
+                       <td class="T4" class="table" colspan="1" rowspan="1"><span>“<a class="red"><b>Come join our team!<br>Come join our team!!<br>Come join our team!</b></a>”<br>These messages are intended to be spam as it is the same message 3 times in a row.<br>“<a class="red"><b>gndonaosndoang2qnfw</b></a>”<br>This message is intended to be character spam as it is random characters.<br>“<a class="red"><b>omg a mod<br>hi mod ur so cool<br>mod hi omg</b></a>”<br>These messages are not similar but still flood the chat.<br><br>“<a class="green"><b>ggggggggggggggggg</b></a>”<br>This message indicates that a player had a fun time (and is saying “good game”), we don’t punish players who are excited.</span>
                        <td class="T4" colspan="1" rowspan="1"><span>You will be warned, if you continue with the same behavior you will be jailed.</span>
                    </tr>
                </tbody>
