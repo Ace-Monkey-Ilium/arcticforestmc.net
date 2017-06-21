@@ -12,7 +12,7 @@
     background-image: url("http://i.imgur.com/AOkCD.png");
 
     /* Full height */
-    height: 872px; 
+    height: 960px; 
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -40,6 +40,8 @@ img:hover {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    transition: 2s;
+    text-shadow: 2px 2px #6f6f6f;
 }
 .button:hover {
     background-color: #111da0;
@@ -52,6 +54,8 @@ img:hover {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    transition: 2s;
+    text-shadow: 2px 2px #6f6f6f;
 }
 h1 {
   /*Centering text*/
@@ -81,7 +85,6 @@ list-style-position: inside;
   transition: 1s ease;
 }
 a{
-    color: white;
     text-decoration: none;
 }
 .error-t {
@@ -147,6 +150,92 @@ iframe {
   display: none;
   text-align: center;
 }
+/* Full-width input fields */
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #4c94af;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {float:left;width:50%}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
 </style>
 <body class="bg" link="white" onload="myFunction()">
     <div id="loader"></div>
@@ -158,6 +247,31 @@ iframe {
         <h1 class="button"><a href="/rules/">Rules</a></h1>
         <h1 class="button"><a href="https://discord.gg/DJBBkWx" target="_blank">Discord</a></h1>
         <h1 class="button"><a href="/youtube/">YouTube</a></h1>
+        <button class="button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><b>Sign Up</b></button>
+
+        <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+            <form class="modal-content animate" action="/action_page.php">
+                <div class="container">
+                    <label><b>Email</b></label>
+                    <input type="email" placeholder="Enter Email" name="email" required>
+                    <br>
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="password" required>
+                    <br>
+                    <label><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="password-repeat" required>
+                    <br>
+                    <input type="checkbox" checked="checked"> Remember me
+                    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
         <br>
         <ul>
         <p class="error-t"><b>ArcticForest is a vanilla survival server with a friendly community and atmosphere about it.  Sporting a relatively smaller-than-average playerbase, you will find many great places to build and set up your base or home. The world was originally made during the Alpha but, sadly, most of the Alpha chunks had to be deleted due to causing many corruption problems. We have great staff members who are always who are kind and happy to help. All in all ArcticForest is an extremely welcoming server for players of all types! </b></p></ul>
@@ -174,5 +288,14 @@ function myFunction() {
 function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
+}
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
 </script>
