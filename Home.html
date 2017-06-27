@@ -12,23 +12,25 @@
     background-image: url("http://i.imgur.com/AOkCD.png");
 
     /* Full height */
-    height: 960px; 
+    height: 100%; 
 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attanchment: fixed;
 
 }
+  .Blur {
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+  }
+  
 img {
   margin-top: 32px;
   transition: 2s ease-in;
 }
-img:hover {
-  margin-top: 32px;
-  opacity: .50;
-  transition: 1s ease;
-}
+
 .button {
     background-color: #4c94af;
     border: none;
@@ -254,6 +256,64 @@ button {
     display: table;
 }
 
+body {margin: 0;}
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+    background-color: #4c94af;
+    color: white;
+    transiton: 2s;
+}
+
+ul.sidenav li a:hover:not(.active) {
+    background-color: #111da0;
+    color: white;
+    transition: 2s;
+}
+
+div.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 2048px) {
+    ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.sidenav li a {
+        float: left;
+        padding: 15px;
+    }
+    div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
+}  
+  
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
     .cancelbtn, .signupbtn .loginbtn {
@@ -263,14 +323,19 @@ button {
 </style>
 <body class="bg" link="white" onload="myFunction()">
     <div id="loader"></div>
-    <div style="display:none;" id="myDiv" class="animate-bottom">
-        <center><img src="http://i.imgur.com/Dpimb15.png" height="170.4" width="1024" align="middle" >
-        <br><h1 class="button"><a href="/home" color="white">Home</a></h1>
-        <h1 class="button"><a href="/info" color="white">About ArcticForest</a></h1>
-        <h1 class="button"><a href="/apply/" color="white">Staff Application</a></h1>
-        <h1 class="button"><a href="/rules/" color="white">Rules</a></h1>
-        <h1 class="button"><a href="https://discord.gg/DJBBkWx" target="_blank" color="white">Discord</a></h1>
-        <h1 class="button"><a href="/youtube/" color="white">YouTube</a></h1>
+    <ul class="sidenav">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="/info" color="white">About ArcticForest</a></li>
+      <li><a href="/apply/" color="white">Staff Application</a></li>
+      <li><a href="/rules/" color="white">Rules</a></li>
+      <li><a href="https://discord.gg/DJBBkWx" target="_blank" color="white">Discord</a></li>
+      <li><a href="/youtube/" color="white">YouTube</a></li>
+      <li style="float:middle"><a>da</a></li>
+      <li style="float:right"><a onclick="document.getElementById('id02').style.display='block'" >Login</a></li>
+      <li style="float:right"><a onclick="document.getElementById('id01').style.display='block'" >Sign Up</a></li>
+    </ul>
+    <div style="display:none;" id="myDiv" class="animate-bottom content">
+        <center><img src="http://i.imgur.com/Dpimb15.png" height="170.4" width="1024" align="middle" ><br>
         <button class="button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><b>Sign Up</b></button>
 
         <div id="id01" class="modal">
@@ -351,3 +416,5 @@ window.onclick = function(event) {
     }
 }
 </script>
+
+
