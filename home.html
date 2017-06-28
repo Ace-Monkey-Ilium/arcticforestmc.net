@@ -16,9 +16,10 @@
 
     /* Center and scale the image nicely */
     background-position: center;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-size: cover;
     background-attanchment: fixed;
+    
 
 }
   .Blur {
@@ -75,6 +76,7 @@ padding: 10px;
 background-color: rgba(255, 255, 255, .3);
 list-style-position: inside;
   transition: 1s ease;
+  z-index: -1;
 }
 ul:hover {
   display: inline-block;
@@ -330,8 +332,8 @@ div.content {
       <li><a href="/rules/" color="white">Rules</a></li>
       <li><a href="https://discord.gg/DJBBkWx" target="_blank" color="white">Discord</a></li>
       <li><a href="/youtube/" color="white">YouTube</a></li>
-      <li style="float:right"><a onclick="document.getElementById('id02').style.display='block'" >Login</a></li>
-      <li style="float:right"><a onclick="document.getElementById('id01').style.display='block'" >Sign Up</a></li>
+      <li><a onclick="document.getElementById('id02').style.display='block'" >Login</a></li>
+      <li><a onclick="document.getElementById('id01').style.display='block'" >Sign Up</a></li>
     </ul>
     <div style="display:none;" id="myDiv" class="animate-bottom content">
         <center><img src="http://i.imgur.com/Dpimb15.png" height="170.4" width="1024" align="middle" ><br>
@@ -415,6 +417,7 @@ window.onclick = function(event) {
     }
 }
 </script>
+
 
 
 
